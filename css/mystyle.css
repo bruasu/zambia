@@ -1,0 +1,5 @@
+#video{
+    border: solid 32px black;
+    /*border-radius: 20px;*/
+    border-image: url(../img/border.png) 30 round;
+}
