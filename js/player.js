@@ -7,7 +7,7 @@ class Player{
             {src:'video/vinga4.mp4',name: 'Vingadores 4'}
              ];
         this.indicevideo=0;
-        this.loopaVideo;	
+        this.loopaVideo;
     }
     playvideo(){
         if(video.src == ''){
@@ -19,6 +19,7 @@ class Player{
       this.listvideo[this.indicevideo].name;
 
       this.loopaVideo = setInterval(this.reproVideo, 1000);
+      video.onclick = this.pausevideo;
     }
     reproVideo(){
         var tempo = video.currentTime;
@@ -28,7 +29,7 @@ class Player{
     }
     pausevideo(){
         video.pause();
-        console.log(video);
+        video.onclick = this.playvideo;
     }
     stopvideo(){
         video.pause();
