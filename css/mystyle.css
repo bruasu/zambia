@@ -1,5 +1,35 @@
+
 #video{
     border: solid 32px black;
     /*border-radius: 20px;*/
-    border-image: url(../img/border.png) 30 round;
+    border-image: url(../img/border.png) 30 stretch;
+}
+#videos{
+	background-image: url(../img/tigre.png), url(../img/zambia_wild.jpg);
+	background-size: 20% , 100% auto;
+	background-repeat: no-repeat;
+	background-position: right, center;
+}
+
+@media screen and (max-width: 870px) {
+  #videos {
+    background-size: 20% , 100% 100%;
+  }
+#video{
+	width: 90%;
+}  
+}
+
+@media (min-width:992px){
+	#mainNav{
+		background-color: rgba(0,100,200,0.5);
+	}
+	#mainNav.navbar-shrink{
+		background-color: transparent;
+		background-image: 
+		linear-gradient(
+		to left botton,
+		red,
+		white);
+	}
 }
