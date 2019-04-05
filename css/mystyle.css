@@ -1,3 +1,14 @@
+@font-face {
+  font-family: Sweet;
+  src: url(../font/Sweet\ Lemonade\ Demo.ttf);
+}
+@font-face {
+  font-family: harryPotter;
+  src: url(../font/HARRYP__.TTF);
+}
+#harryPotterTitle{
+	font-family: harryPotter;
+}
 
 #video{
     border: solid 32px black;
@@ -10,6 +21,15 @@
 	background-repeat: no-repeat;
 	background-position: right, center;
 }
+#videos h1{
+	font-family: Sweet;
+	text-shadow: 2px 3px 2px white;
+
+}
+#videos button:hover i{
+	color: lightcoral;
+	text-shadow: 0px 0px 10px red;
+}
 
 @media screen and (max-width: 870px) {
   #videos {
@@ -17,6 +37,7 @@
   }
 #video{
 	width: 90%;
+	
 }  
 }
 
@@ -26,10 +47,6 @@
 	}
 	#mainNav.navbar-shrink{
 		background-color: transparent;
-		background-image: 
-		linear-gradient(
-		to left botton,
-		red,
-		white);
-	}
+		background-image: linear-gradient(to bottom right, rgba(180, 56, 56, 0.486), rgba(255, 255, 0, 0.5));
+		background-image: radial-gradient(rgba(180, 56, 56, 0.486) 2%, rgba(255, 255, 0, 0.5) 95%,transparent);
 }
