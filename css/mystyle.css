@@ -10,25 +10,41 @@
 	font-family: harryPotter;
 }
 
-#video{
+#video{		
     border: solid 32px black;
     /*border-radius: 20px;*/
-    border-image: url(../img/border.png) 30 stretch;
+		border-image: url(../img/border.png) 30 stretch;
+		
 }
 #videos{
 	background-image: url(../img/tigre.png), url(../img/zambia_wild.jpg);
 	background-size: 20% , 100% auto;
 	background-repeat: no-repeat;
 	background-position: right, center;
+
+	animation-name: videos;
+	animation-duration: 5s;
 }
+@keyframes videos {
+	from {
+		background-position: left, center;
+	}	
+  to {
+		background-position: right, center;
+	}
+}
+
 #videos h1{
 	font-family: Sweet;
 	text-shadow: 2px 3px 2px white;
 
 }
+#videos button{
+	transition: 2s;
+}
 #videos button:hover i{
-	color: lightcoral;
-	text-shadow: 0px 0px 10px red;
+	color: rgb(2, 22, 136);
+	text-shadow: 0px 0px 10px rgb(103, 123, 236);
 }
 
 .title{
@@ -37,6 +53,16 @@
 
 .title:hover{
 	transform: scale(2.5) rotate(360deg);
+}
+.write-text{
+	color: white;
+	font-size: 2rem;
+}
+.box-info{
+	border-radius: 15px 15px;
+	background: black;
+	display: inline-block;
+	margin: 5px;
 }
 
 @media screen and (max-width: 870px) {

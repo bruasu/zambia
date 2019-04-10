@@ -81,13 +81,15 @@
             <button onclick="player.stopvideo()"><i class="fas fa-2x fa-stop"></i></button>
             <button onclick="player.backvideo()"><i class="fas fa-2x fa-backward"></i></button>
             <button onclick="player.nextvideo()"><i class="fas fa-2x fa-forward"></i></button>
-            <span id="sumVideo"></span>
-            <span id='volTextVideo'></span>
+            <div class="box-info">
+              <span class="write-text" id="sumVideo"></span>
+              <span class="write-text" id='volTextVideo'></span>
+            </div>
             <div>
               <input type='range' id='volVideo' step='0.1'
                 min='0' max='1' value='0.5' 
                 onchange='player.setVolumeVideo()'>
-              <span id="volumenVideo"></span>
+              <span class="box-info write-text" id="volumenVideo"></span>
             </div>
         </div>
       </div>
