@@ -11,9 +11,9 @@
 }
 
 #video{		
-    border: solid 32px black;
+    border: solid 15px black;
     /*border-radius: 20px;*/
-		border-image: url(../img/border.png) 30 stretch;
+		border-image: url(../img/border.png) 25 stretch;
 		
 }
 #videos{
@@ -83,4 +83,25 @@
 		background-color: transparent;
 		background-image: linear-gradient(to bottom right, rgba(180, 56, 56, 0.486), rgba(255, 255, 0, 0.5));
 		background-image: radial-gradient(rgba(180, 56, 56, 0.486) 2%, rgba(255, 255, 0, 0.5) 95%,transparent);
+}
+}
+
+#audios{
+	background-image: url('../img/sol.png'), linear-gradient(to bottom right, rgba(235, 84, 84, 0.671), rgba(255, 255, 0, 0.418));
+	background-size: 10%, auto;
+	background-repeat: no-repeat;
+	animation-name: audios;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes audios {
+	from {
+		background-position: left, center;
+	}	
+  to {
+		background-position: right, center;
+	}
+}
+#audios h1{
+	font-family: harryPotter;
 }
