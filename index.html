@@ -45,8 +45,8 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#projects">Datos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#scenery">Paisajes</a>
           </li>
         </ul>
       </div>
@@ -164,15 +164,29 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/musica.jpg" alt="" style="width:100%">
+          <img class="img-fluid w-100" src="img/musica.jpg" alt="" style="width:100%">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Música</h4>
-                <p class="mb-0 text-white-50">La música nunca falta en las iglesias y tampoco en las calles zambianas. Cada tribu tiene su propio baile con su vestimenta y su significado, diferente al del resto de las tribus. En todos ellos siempre encuentras tambores, pitos y utilizan sus propias voces para que todo junto cree la melodía que bailan. El baile de los Bembas por ejemplo, se llama Kalela.
-																Pero seguramente uno de los temas que mayor fascinación despierta de la cultura africana y, en particular, de la zambiana, son sus tradiciones. En este sentido, destacar que la ceremonia más relevante que existe en Zambia es la Koumboca, su significado es salir del agua. Se celebra el cambio del Rey Litunga de la tribu Lozi, de su casa en Lealui a su otra casa en Limulunga. El Rey lleva a cabo este viaje utilizando un avión para cruzar parte del río Zambezi y un barco para ir a la otra parte. Se realiza al final de la época de lluvias y el comienzo de la época seca. </p>
+                <p class="mb-0 text-white-50">
+                  La música nunca falta en las iglesias y tampoco en las calles zambianas. Cada tribu tiene su propio
+                   baile con su vestimenta y su significado, diferente al del resto de las tribus. 
+                  </p>
+                  <p class="mb-0 text-white-50" id="texto2" style="display: none">
+                      En todos ellos siempre
+                      encuentras tambores, pitos y utilizan sus propias voces para que todo junto cree la melodía que bailan. 
+                      El baile de los Bembas por ejemplo, se llama Kalela.
+                    Pero seguramente uno de los temas que mayor fascinación despierta de la cultura africana y, en particular,
+                    de la zambiana, son sus tradiciones. En este sentido, destacar que la ceremonia más relevante que existe
+                    en Zambia es la Koumboca, su significado es salir del agua. Se celebra el cambio del Rey Litunga de la
+                    tribu Lozi, de su casa en Lealui a su otra casa en Limulunga. El Rey lleva a cabo este viaje utilizando
+                    un avión para cruzar parte del río Zambezi y un barco para ir a la otra parte. Se realiza al final de
+                    la época de lluvias y el comienzo de la época seca. 
+                  <p>
+                <button class="btnText btn btn-primary paddingVer" onclick="showText('texto2', this)">Ver mas</button>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -183,20 +197,26 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/presidente.jpg" alt="">
+          <img class="img-fluid w-100" src="img/presidente.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Gobierno y política</h4>
-                <p class="mb-0 text-white-50">Zambia es una república, en la que el poder ejecutivo lo tiene el presidente – que es también el Jefe de Estado y el de gobierno – y el vicepresidente, elegidos por un período de cinco años por voto popular. También había el cargo de primer ministro, abolido durante el gobierno de Chiluba en 1991.
-
-				El gobierno está compuesto por un gabinete elegido por el presidente entre los miembros de la Asamblea Nacional. El poder legislativo es unicameral; lo ejerce la Asamblea Nacional, la cual cuenta con 150 miembros electos por mayoría simple para un periodo de 5 años.
-
-				El poder judicial lo tiene la Corte Suprema, aunque los jueces son designados por el presidente; debajo de la Corte Suprema está la Corte Superior, las Cortes de Magistrados y cortes locales en cada una de las provincias.
-
-				Zambia es uno de los países políticamente más estables de África, y uno de los pocos que no ha sufrido golpes de estado ni conocido regímenes autoritarios a lo largo de su historia. </p>
+                <p class="mb-0 text-white-50">Zambia es una república, en la que el poder ejecutivo lo tiene el presidente – que es 
+                    también el Jefe de Estado y el de gobierno – y el vicepresidente, elegidos por un período de cinco años por voto popular. 
+                    </p>
+                    <p class="mb-0 text-white-50" id="texto1" style="display: none">
+                        También había el cargo de primer ministro, abolido durante el gobierno de Chiluba en 1991.
+                        El gobierno está compuesto por un gabinete elegido por el presidente entre los miembros de la Asamblea Nacional. 
+                        El poder legislativo es unicameral; lo ejerce la Asamblea Nacional, la cual cuenta con 150
+                        miembros electos por mayoría simple para un periodo de 5 años.
+                        El poder judicial lo tiene la Corte Suprema, aunque los jueces son designados por el presidente; debajo de
+                        la Corte Suprema está la Corte Superior, las Cortes de Magistrados y cortes locales en cada una de las provincias.
+                        Zambia es uno de los países políticamente más estables de África, y uno de los pocos que no ha sufrido golpes de
+                        estado ni conocido regímenes autoritarios a lo largo de su historia. </p>
+                <button class="btnText btn btn-primary paddingVer" onclick="showText('texto1', this)">Ver mas</button>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -208,30 +228,90 @@
   </section>
 
   <!-- Signup Section -->
-  <section id="signup" class="signup-section">
+  <section id="scenery" class="	">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
+        <div class="col-lg-12 pb-5">
 
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+			<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+            <!-- Slides Container -->
+            <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 300px;">
+                <div>
+                    <img u="image" src="img/paisaje01.jpg" />
+                    <img u="thumb" src="img/paisaje01.jpg" />
+                </div>
+                <div>
+                    <img u="image" src="img/paisaje02.jpg" />
+                    <img u="thumb" src="img/paisaje02.jpg" />
+                </div>
+                <div>
+                    <img u="image" src="img/paisaje03.jpg" />
+                    <img u="thumb" src="img/paisaje03.jpg" />
+                </div>
+				<div>
+                    <img u="image" src="img/paisaje04.jpg" />
+                    <img u="thumb" src="img/paisaje04.jpg" />
+                </div>
+            </div>
 
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
+            <!--#region Thumbnail Navigator Skin Begin -->
+            <!-- Help: https://www.jssor.com/development/slider-with-thumbnail-navigator.html -->
+            <style>
+                .jssort051 .p {position:absolute;top:0;left:0;background-color:#000;}
+                .jssort051 .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.45;}
+                .jssort051 .p:hover .t{opacity:.8;}
+                .jssort051 .pav .t, .jssort051 .pdn .t, .jssort051 .p:hover.pdn .t{opacity:1;}
+            </style>
+            <div data-u="thumbnavigator" class="jssort051" style="position:absolute;left:0px;bottom:0px;width:980px;height:50px;" data-autocenter="1" data-scale-bottom="0.75">
+                <div data-u="slides">
+                    <div data-u="prototype" class="p" style="width:100px;height:50px;">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                </div>
+            </div>
+            <!--#endregion Thumbnail Navigator Skin End -->
 
+
+            <!--#region Arrow Navigator Skin Begin -->
+            <!-- Help: https://www.jssor.com/development/slider-with-arrow-navigator.html -->
+            <style>
+                .jssora073 {display:block;position:absolute;cursor:pointer;}
+                .jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+                .jssora073:hover {opacity:.8;}
+                .jssora073.jssora073dn {opacity:.4;}
+                .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
+            </style>
+            <div data-u="arrowleft" class="jssora073" style="width:50px;height:50px;top:0px;left:10px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M4037.7,8357.3l5891.8,5891.8c100.6,100.6,219.7,150.9,357.3,150.9s256.7-50.3,357.3-150.9 l1318.1-1318.1c100.6-100.6,150.9-219.7,150.9-357.3c0-137.6-50.3-256.7-150.9-357.3L7745.9,8000l4216.4-4216.4 c100.6-100.6,150.9-219.7,150.9-357.3c0-137.6-50.3-256.7-150.9-357.3l-1318.1-1318.1c-100.6-100.6-219.7-150.9-357.3-150.9 s-256.7,50.3-357.3,150.9L4037.7,7642.7c-100.6,100.6-150.9,219.7-150.9,357.3C3886.8,8137.6,3937.1,8256.7,4037.7,8357.3 L4037.7,8357.3z"></path>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora073" style="width:50px;height:50px;top:0px;right:10px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M11962.3,8357.3l-5891.8,5891.8c-100.6,100.6-219.7,150.9-357.3,150.9s-256.7-50.3-357.3-150.9 L4037.7,12931c-100.6-100.6-150.9-219.7-150.9-357.3c0-137.6,50.3-256.7,150.9-357.3L8254.1,8000L4037.7,3783.6 c-100.6-100.6-150.9-219.7-150.9-357.3c0-137.6,50.3-256.7,150.9-357.3l1318.1-1318.1c100.6-100.6,219.7-150.9,357.3-150.9 s256.7,50.3,357.3,150.9l5891.8,5891.8c100.6,100.6,150.9,219.7,150.9,357.3C12113.2,8137.6,12062.9,8256.7,11962.3,8357.3 L11962.3,8357.3z"></path>
+                </svg>
+            </div>
+            <!--#endregion Arrow Navigator Skin End -->
+
+
+        </div>
+		
         </div>
       </div>
     </div>
   </section>
+  
 
   <!-- Contact Section -->
   <section class="contact-section bg-black">
     <div class="container">
 
       <div class="row">
-
+	
+		<div class="col-lg-12 pb-5">
+			<div id="map"></div>
+	     </div>
+		 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
@@ -255,7 +335,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
@@ -299,10 +378,20 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <!-- Slider -->
+  <script src="js/jssor.slider.min.js"></script>
+  <script src="js/mySlider.js"></script>
+  <!--  Map -->
 
+  <script src="js/myMap.js"></script>
+<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6uqr7jctThA5P0NTIJy9MftvB0SbS_mg&callback=initMap">
+</script>
   <!-- Player -->
   <script src="js/player.js"></script>
   <script src="js/playerAudio.js"></script>
+  <script src="js/myScript.js"></script>
+ 
 </body>
 
 </html>

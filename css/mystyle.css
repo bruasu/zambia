@@ -105,3 +105,13 @@
 #audios h1{
 	font-family: harryPotter;
 }
+
+#map {
+        height: 500px;
+        width: 100%;
+       }
+
+.paddingVer{
+	padding: 5px;
+	margin: 5px;
+}
