@@ -10,7 +10,7 @@
                     $AutoPlay: 1,
                     $Loop: 2,
                     $SlideDuration: 650,
-                    $Idle: 100,
+                    $Idle: 2000,
 //                    $BulletNavigatorOptions: {
 //                        $Class: $JssorBulletNavigator$,
 //                        $ChanceToShow: 2
