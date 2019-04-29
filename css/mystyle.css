@@ -93,6 +93,7 @@
 	animation-name: audios;
 	animation-duration: 5s;
 	animation-iteration-count: infinite;
+	padding: 25px;
 }
 @keyframes audios {
 	from {videos
