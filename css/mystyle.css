@@ -96,7 +96,7 @@
 	padding: 25px;
 }
 @keyframes audios {
-	from {videos
+	from {
 		background-position: left, center;
 	}	
   to {
@@ -115,6 +115,17 @@
 .paddingVer{
 	padding: 5px;
 	margin: 5px;
+}
+.backgroundText{
+	background-color: #cccccc;
+	border-radius: 10px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.backgroundText h1{
+	text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -135,4 +146,8 @@
 	.projects-section .project-text{
 		padding-top: 0px;
 	}
+}
+
+.projects-section {
+	padding: 4rem 0;
 }
