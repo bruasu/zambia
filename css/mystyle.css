@@ -84,12 +84,12 @@
 	#mainNav.navbar-shrink{
 		background-color: transparent;
 		background-image: linear-gradient(to bottom right, rgba(180, 56, 56, 0.8), rgba(255, 255, 0, 0.8));
-		background-image: radial-gradient(rgba(230, 243, 155, 0.8) 2%, rgba(255, 255, 0, 0.8) 95%,transparent);
+		background-image: radial-gradient(#FFDEB0 2%, #00EB14 95%,transparent);
 }
 }
 
 #audios{
-	background-image: url('../img/sol.png'), linear-gradient(to bottom right, rgba(235, 84, 84, 0.671), rgba(255, 255, 0, 0.418));
+	background-image: url('../img/sol.png'), linear-gradient(to bottom right, rgba(235, 84, 84, 0.671), rgba(65, 228, 32, 0.568));
 	background-size: 10%, auto;
 	background-repeat: no-repeat;
 	animation-name: audios;

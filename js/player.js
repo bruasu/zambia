@@ -2,9 +2,9 @@ class Player{
     
     constructor(){
         this.listvideo = [
-            {src:'video/aThings3.mp4',name: 'Things 3'},
-            {src:'video/capitana.mp4',name: 'Capitana America'},
-            {src:'video/vinga4.mp4',name: 'Vingadores 4'}
+            {src:'video/Bandera e Himno Nacional de Zambia - Flag and National Anthem of Zambia.mp4',name: 'Flag and National Anthem of Zambia'},
+            {src:'video/Show Me Your Money Zed Stylo 2017 Zambian Music Videos.mp4',name: 'Show Me Your Money Zed Stylo 2017 Zambian Music'},
+            {src:'video/Zambia y su Musica.mp4',name: 'Zambia y su Musica'}
              ];
         this.indicevideo=0;
         this.loopaVideo;

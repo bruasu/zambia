@@ -2,9 +2,9 @@ class PlayerAudio{
     
     constructor(){
         this.listaudio = [
-            {src:'audio/BeautifulName.mp3',name: 'BeautifulName'},
-            {src:'audio/Epistemologica.mp3',name: 'Epistemologica'},
-            {src:'audio/Hosanna.mp3',name: 'Hosanna'}
+            {src:'audio/Flag and National Anthem of Zambia.mp3',name: 'Flag and National Anthem of Zambia'},
+            {src:'audio/Show Me Your Money Zed Stylo 2017 Zambian Music Videos.mp3',name: 'Show Me Your Money Zed Stylo 2017 Zambian Music'},
+            {src:'audio/Zambia y su Musica.mp3',name: 'Zambia y su Musica'}
              ];
         this.indiceaudio=0;
         this.loopaaudio;
